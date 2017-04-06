@@ -1,0 +1,13 @@
+{application,tai,
+             [{description,"tai"},
+              {modules,['Elixir.Tai','Elixir.Tai.Endpoint',
+                        'Elixir.Tai.ErrorHelpers','Elixir.Tai.ErrorView',
+                        'Elixir.Tai.Gettext','Elixir.Tai.LayoutView',
+                        'Elixir.Tai.PageController','Elixir.Tai.PageView',
+                        'Elixir.Tai.Router','Elixir.Tai.Router.Helpers',
+                        'Elixir.Tai.UserSocket','Elixir.Tai.Web']},
+              {registered,[]},
+              {vsn,"0.0.1"},
+              {mod,{'Elixir.Tai',[]}},
+              {applications,[kernel,stdlib,elixir,phoenix,phoenix_pubsub,
+                             phoenix_html,cowboy,logger,gettext]}]}.
